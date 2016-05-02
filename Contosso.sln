@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contosso", "Contosso\Contosso.csproj", "{8C94ED28-2B04-4254-8756-C79E2394C646}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{CB4F0F37-70BA-4542-A24F-468402C52AAF}"
+	ProjectSection(SolutionItems) = preProject
+		SchoolContext.cs = SchoolContext.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
